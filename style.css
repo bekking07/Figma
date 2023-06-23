@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    background: #C8A35F;
+    color: #FFFFFF;
+    padding: 16px 0;
+}
+
+.header .container{
+    width: 1110px;
+    margin: 0 auto;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.header .container .lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 15px;
+}
+.header .container .lang p{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+ .header .container .lang p.active{
+    opacity: 1;
+ }
